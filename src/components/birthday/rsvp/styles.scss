@@ -1,0 +1,72 @@
+.rsvp-wrapper {
+
+    .agenda-day {
+        background-color: black;
+        margin-bottom: -10px;
+
+        h1, h3 {
+            background-color: transparent;
+            color: white;
+            margin: 10px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+    }
+    
+    .half  {
+        width: 50%;
+        padding: 25px 0px;
+        font-size: 64px;
+        float: left;
+        height: 110px;
+        cursor: pointer;
+
+        &:hover {
+
+            img {
+                animation: rotating 2s linear infinite;
+            }
+        }
+
+        img {
+            width: 100px;
+            transition: width .2s ease-in-out;
+            transition: font-size .2s ease-in-out;
+        }
+
+        .rsvp-text {
+            vertical-align: super;
+        }
+    }
+
+    .no-wrapper {
+        background-color: rgb(255, 119, 0);
+    }
+
+    .go-wrapper {
+        background-color: rgb(0, 255, 72);
+        
+        .go img {
+            margin-top: 10px;
+        }
+    }
+
+    @keyframes rotating {
+        from {
+          -ms-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        to {
+          -ms-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+}

@@ -1,0 +1,39 @@
+.agenda-wrapper {
+    
+    .agenda-item {
+        padding: 0px 10%;
+        background-size: cover;
+        min-height: 480px;
+        
+        h1, h2 {
+            
+        }
+    }
+
+    .agenda-day {
+        background-color: black;
+
+        h1 {
+            background-color: transparent;
+            color: white;
+            margin: 10px;
+        }
+    }
+
+    .agenda-brunch {
+        background-image: url(../../../assets/agenda-6.gif);
+        background-position-x: -370px;
+    }
+
+    .agenda-park {
+        background-image: url(../../../assets/agenda-3.gif);
+    }
+    
+    .agenda-night {
+        background-image: url(../../../assets/agenda-1.gif);
+    }
+
+    .agenda-hangover {
+        background-image: url(../../../assets/agenda-5.gif);
+    }
+}
