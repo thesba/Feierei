@@ -9,7 +9,7 @@ import RSVP from './rsvp';
 function Birthday() {
     
     const [isInitial, setIsInitial] = useState(true);
-    const [hasAccess, setHasAccess] = useState(true);   // TODO change
+    const [hasAccess, setHasAccess] = useState(false);   // TODO change
 
     useEffect(() => {
 
