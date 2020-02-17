@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.98186086.chunk.css",
-    "main.js": "/static/js/main.be2d4311.chunk.js",
-    "main.js.map": "/static/js/main.be2d4311.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.70a38ce1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.70a38ce1.js.map",
-    "static/js/2.1f3b3862.chunk.js": "/static/js/2.1f3b3862.chunk.js",
-    "static/js/2.1f3b3862.chunk.js.map": "/static/js/2.1f3b3862.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2551d53e860e2951d85eabae950d04e1.js": "/precache-manifest.2551d53e860e2951d85eabae950d04e1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.98186086.chunk.css.map": "/static/css/main.98186086.chunk.css.map",
-    "static/js/2.1f3b3862.chunk.js.LICENSE": "/static/js/2.1f3b3862.chunk.js.LICENSE",
-    "static/media/App.scss": "/static/media/8-Bit-Madness.003c94a5.ttf",
-    "static/media/styles.scss": "/static/media/header-2.541ceb52.gif",
-    "static/media/go.gif": "/static/media/go.690df1b1.gif",
-    "static/media/no.gif": "/static/media/no.4e051898.gif"
+    "main.css": "/Feierei/static/css/main.8c6451c2.chunk.css",
+    "main.js": "/Feierei/static/js/main.c6f3d0f2.chunk.js",
+    "main.js.map": "/Feierei/static/js/main.c6f3d0f2.chunk.js.map",
+    "runtime-main.js": "/Feierei/static/js/runtime-main.50c3d7dc.js",
+    "runtime-main.js.map": "/Feierei/static/js/runtime-main.50c3d7dc.js.map",
+    "static/js/2.1f3b3862.chunk.js": "/Feierei/static/js/2.1f3b3862.chunk.js",
+    "static/js/2.1f3b3862.chunk.js.map": "/Feierei/static/js/2.1f3b3862.chunk.js.map",
+    "index.html": "/Feierei/index.html",
+    "precache-manifest.9db5b2c0b363c8612d581f63789d8af7.js": "/Feierei/precache-manifest.9db5b2c0b363c8612d581f63789d8af7.js",
+    "service-worker.js": "/Feierei/service-worker.js",
+    "static/css/main.8c6451c2.chunk.css.map": "/Feierei/static/css/main.8c6451c2.chunk.css.map",
+    "static/js/2.1f3b3862.chunk.js.LICENSE": "/Feierei/static/js/2.1f3b3862.chunk.js.LICENSE",
+    "static/media/App.scss": "/Feierei/static/media/8-Bit-Madness.003c94a5.ttf",
+    "static/media/styles.scss": "/Feierei/static/media/header-2.541ceb52.gif",
+    "static/media/go.gif": "/Feierei/static/media/go.690df1b1.gif",
+    "static/media/no.gif": "/Feierei/static/media/no.4e051898.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.70a38ce1.js",
+    "static/js/runtime-main.50c3d7dc.js",
     "static/js/2.1f3b3862.chunk.js",
-    "static/css/main.98186086.chunk.css",
-    "static/js/main.be2d4311.chunk.js"
+    "static/css/main.8c6451c2.chunk.css",
+    "static/js/main.c6f3d0f2.chunk.js"
   ]
 }

@@ -54,6 +54,11 @@ body {
   src: url('../src/assets/8-Bit-Madness.ttf') format('truetype');
 }
 
+@font-face  {
+  font-family: 'Fontin';
+  src: url('../src/assets/Fontin-Bold.ttf') format('truetype');
+}
+
 #audio {
   display: none;
 }
@@ -66,14 +71,5 @@ body {
 
   h2 {
     font-size: 30px;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
