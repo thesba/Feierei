@@ -46,14 +46,14 @@ function RSVP() {
       </div>
       <div className="no-wrapper half" onClick={sendNo}>
         <span className="no">
-          <img src={noGif} />
+          <img src={noGif} alt='no' />
           <span className="rsvp-text">NO :/</span>
         </span>
       </div>
 
       <div className="go-wrapper half" onClick={sendGo}>
         <span className="go">
-          <img src={goGif} />
+          <img src={goGif} alt='go'/>
           <span className="rsvp-text">GO :}</span>
         </span>
       </div>

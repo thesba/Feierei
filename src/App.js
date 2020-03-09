@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Birthday from './components/birthday';
 import Weinfest from './components/weinfest';
@@ -15,6 +14,7 @@ function App() {
     <div className="app">
       <Router>
       <Switch>
+        <Weinfest/>
         <Route path="/birthday">
           <Birthday/>
         </Route>

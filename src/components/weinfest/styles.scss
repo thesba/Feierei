@@ -1,23 +1,233 @@
+.loader {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    font-size: 84px;
+    font-family: 'Fontin';
+    left: 0%;
+
+    &.loader-1 {
+        transition: left 1.3s ease-in-out; //, opacity 1.3s ease-in;
+        z-index: 100;
+    }
+
+    &.loader-2 {
+        transition: left 1.4s ease-in-out; //, opacity 1.3s ease-in;
+        opacity: 0.7;
+        z-index: 99;
+    }
+
+    span {
+        //opacity: 0;
+        transition: left 1s ease-in-out;
+        margin-top: 100px;
+        position: fixed;
+        left: 0%;
+        width: 100vw;
+        animation: loading-text 0.5s;
+    }
+
+    &.hidden {
+        //opacity: 0;
+        left: -100%;
+
+        span {
+            //opacity: 0;
+            left: -100%;
+        }
+    }
+}
+
+@keyframes loading-text {
+    from {
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
 .weinfest-page {
     //height: 100vh;
     width: 100vw;
     height: 100vh;
     font-family: 'Fontin' !important;
+    touch-action: none;
+    overflow: hidden;
 
-    .weinfest-content {
-        width: 2*16250px;
-        background-image: url(../../assets/colors_2.png);
+    .progress {
+        position: fixed;
+        top: 0px;
+        width: 0%;
+        height: 7px;
+        transition: width 1s ease-in-out;
+        background-color: white;
+        opacity: 0.7;
+    }
+
+    #weinfest-content {
+        width: 34700px;
+        background-image: url(../../assets/colors_3.jpg);
         height: 100vh;
-        overflow-y: hidden;
+        transition: margin-left 3.5s;
+        margin-left: 0px;
+        cursor: pointer;
     }
 
     .story {
         position: fixed;
         text-align: left;
         color: white;
-        transition: opacity 1s;
+        transition: opacity 0.7s; 
         cursor: pointer;
-        
+        z-index: 2;
+    }
+
+    .mountain {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate-reverse;
+    }
+
+    .mountain-bottom {
+        bottom: -300px;
+        transition: bottom 1.3s ease-in-out;
+        animation-duration: 3s;
+        animation-name: moving-mountains-right;
+        animation-delay: 0.5s;
+    }
+
+    .mountain-top {
+        bottom: -300px;
+        transition: bottom 1s ease-in-out;
+        animation-duration: 2s;
+        animation-name: moving-mountains-left;
+    }
+
+    .land {
+        position: fixed;
+        bottom: -200;
+        left: 0;
+        width: 100%;
+        transition: bottom 1.3s ease-in-out;
+    }
+
+    .portal {
+        transition: bottom 1s;
+        bottom: -800px;
+        right: 30%;
+        position: fixed;
+    }
+
+    .moon {
+        transition: bottom 2s ease-out;
+        right: 450px;
+        bottom: -420px;
+        position: fixed;
+    }
+
+    .input-name {
+        background-color: transparent;
+        width: 600px;
+        border: none;
+        border-bottom: white solid 5px;
+        font-family: 'Fontin';
+        font-size: 50px;
+        color: white;
+        margin-top: 60px;
+        z-index: 10;
+    }
+
+    .helper-text {
+        font-size: 20px;
+        color: white;
+        display: block;
+    }
+
+    .name-enter {
+        //float: right;
+        width: 40px;
+        height: 40px;
+        margin-left: -50px;
+    }
+
+    .keys {
+        position: fixed;
+        top: 50px;
+        right: 50px;
+        width: 100px;
+        transition: opacity 0.7s ease-in-out;
+
+    }
+
+    .signup {
+        display: block;
+        color: white;
+        font-size: 50px;
+        margin-top: 50px;
+    } 
+
+    a:visited {
+        color: white;
+    }
+
+    .signup-quick {
+        position: fixed;
+        width: 100vw;
+        top: 20px;
+        left: 0px;
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    .assistant {
+        position: fixed;
+        right: 0px;
+        bottom: -500px;
+        opacity: 0;
+        width: 300px;
+        animation: robin 1.5s ease-in-out forwards;
+        animation-delay: 3s;
+        transition: opacity ease-in-out 1s;
+    }
+
+    @keyframes robin {
+        0%   { transform: scale(1,1)      translateY(0); right: 0px;
+            bottom: -500px;
+            opacity: 0; }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); right: 50px;
+            bottom: 10px;
+            opacity: 1; }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(1,1)      translateY(0); right: 50px;
+            bottom: 10px;
+            opacity: 1;  }
+    }
+
+    @keyframes moving-mountains-left {
+        from {
+            margin-left: 0px;
+        }
+        to {
+            margin-left: 20px;
+        }
+    }
+
+    @keyframes moving-mountains-right {
+        from {
+            margin-left: 0px;
+        }
+        to {
+            margin-left: -30px;
+        }
     }
 }
 
@@ -43,7 +253,8 @@
     .story {
         font-size: 80px;
         left: 10%;
-        top: 20%;
-        width: 60%;
+        top: 150px;
+        max-width: 950px;
+        margin-right: 90px;
     }
 }

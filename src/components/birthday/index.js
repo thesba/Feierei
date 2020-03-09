@@ -21,13 +21,13 @@ function Birthday() {
                 setHasAccess(true);
             }
         }
-    });
+    }, [isInitial]);
 
     return (
         <>
             {hasAccess && 
             <div className="birthday-page">
-                <iframe src="" allow="autoplay" id="audio"></iframe>
+                <iframe title="audio" src="" allow="autoplay" id="audio"></iframe>
                 <Header />
                 <RSVP />
                 <Agenda />

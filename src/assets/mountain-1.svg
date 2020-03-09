@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="404px" viewBox="0 0 1440 404" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="66.1887397%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.34" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Midday" transform="translate(0.000000, -620.000000)" fill="url(#linearGradient-1)">
+            <path d="M-264.841023,885.842882 C-306.98584,824.369239 -262.559315,793.632417 -131.561448,793.632417 C-111.358971,805.713298 -85.7727256,796.043343 -54.8027127,764.622554 C-23.8326999,733.201764 113.5924,684.994247 357.472585,620 C498.948612,665.605313 594.086988,694.581592 642.887715,706.928837 C691.688441,719.276082 780.636001,754.649144 909.730393,813.048025 L1555.46248,1013.3722 L1831.42259,1086.84127 L-391,1301.68254 C-264.749198,1085.92974 -222.696206,947.316526 -264.841023,885.842882 Z" id="Path-2"></path>
+        </g>
+    </g>
+</svg>

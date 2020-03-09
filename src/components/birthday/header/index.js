@@ -3,7 +3,7 @@ import './styles.scss';
 
 function Header() {
 
-    const [name, setName] = useState("Mr. Or Mrs. Random");
+    const [name] = useState("Mr. Or Mrs. Random");
 
     const getInviteeName = () => {
 
