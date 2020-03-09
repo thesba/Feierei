@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41bd37f62cc87c6b51e160cc283ea0bf",
+    "revision": "91e581b1763af0fcfe178d7d2937cf77",
     "url": "/Feierei/index.html"
   },
   {
-    "revision": "ac31ac09f3368cb46b15",
+    "revision": "b85be6992bb52b3363c1",
     "url": "/Feierei/static/css/main.5b0c812d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Feierei/static/js/2.b3085eff.chunk.js.LICENSE"
   },
   {
-    "revision": "ac31ac09f3368cb46b15",
-    "url": "/Feierei/static/js/main.bcf6376f.chunk.js"
+    "revision": "b85be6992bb52b3363c1",
+    "url": "/Feierei/static/js/main.86ae14ba.chunk.js"
   },
   {
     "revision": "59654d81e1f0ca437412",
